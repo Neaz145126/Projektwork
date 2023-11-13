@@ -1,0 +1,17 @@
+[31mCMake Error at CMakeLists.txt:14 (find_package):
+  By not providing "Findwebots_ros2_driver.cmake" in CMAKE_MODULE_PATH this
+  project has asked CMake to find a package configuration file provided by
+  "webots_ros2_driver", but CMake did not find one.
+
+  Could not find a package configuration file provided by
+  "webots_ros2_driver" with any of the following names:
+
+    webots_ros2_driverConfig.cmake
+    webots_ros2_driver-config.cmake
+
+  Add the installation prefix of "webots_ros2_driver" to CMAKE_PREFIX_PATH or
+  set "webots_ros2_driver_DIR" to a directory containing one of the above
+  files.  If "webots_ros2_driver" provides a separate development package or
+  SDK, be sure it has been installed.
+
+[0m

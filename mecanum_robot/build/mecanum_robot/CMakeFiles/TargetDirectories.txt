@@ -1,0 +1,10 @@
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/uninstall.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/mecanum_robot_uninstall.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/mecanum_robot.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/test.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/edit_cache.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/rebuild_cache.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/list_install_components.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/install.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/install/local.dir
+/home/neaz/Downloads/mecanum_robot/build/mecanum_robot/CMakeFiles/install/strip.dir
