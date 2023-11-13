@@ -1,0 +1,1 @@
+/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/config/turtlebot3_lds_2d.lua

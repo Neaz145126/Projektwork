@@ -1,0 +1,156 @@
+[0.000000] (-) TimerEvent: {}
+[0.000246] (navigation_tb3) JobQueued: {'identifier': 'navigation_tb3', 'dependencies': OrderedDict()}
+[0.000423] (navigation_tb3) JobStarted: {'identifier': 'navigation_tb3'}
+[0.041156] (navigation_tb3) JobProgress: {'identifier': 'navigation_tb3', 'progress': 'cmake'}
+[0.041326] (navigation_tb3) Command: {'cmd': ['/usr/bin/cmake', '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3', '-DAMENT_CMAKE_SYMLINK_INSTALL=1', '-DCMAKE_INSTALL_PREFIX=/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3'], 'cwd': '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neaz'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/neaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39f65eaf740692cc01b611f6655150d2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'neaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'neaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/neaz-Latitude-5520:@/tmp/.ICE-unix/1579,unix/neaz-Latitude-5520:/tmp/.ICE-unix/1579'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e6855a2_776b_41d5_a0bd_3f2458f4dd14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39f65eaf740692cc01b611f6655150d2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[0.085079] (navigation_tb3) StdoutLine: {'line': b'-- The C compiler identification is GNU 11.4.0\n'}
+[0.099861] (-) TimerEvent: {}
+[0.131602] (navigation_tb3) StdoutLine: {'line': b'-- The CXX compiler identification is GNU 11.4.0\n'}
+[0.137386] (navigation_tb3) StdoutLine: {'line': b'-- Detecting C compiler ABI info\n'}
+[0.197982] (navigation_tb3) StdoutLine: {'line': b'-- Detecting C compiler ABI info - done\n'}
+[0.199943] (-) TimerEvent: {}
+[0.204601] (navigation_tb3) StdoutLine: {'line': b'-- Check for working C compiler: /usr/bin/cc - skipped\n'}
+[0.204826] (navigation_tb3) StdoutLine: {'line': b'-- Detecting C compile features\n'}
+[0.205360] (navigation_tb3) StdoutLine: {'line': b'-- Detecting C compile features - done\n'}
+[0.208074] (navigation_tb3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info\n'}
+[0.276639] (navigation_tb3) StdoutLine: {'line': b'-- Detecting CXX compiler ABI info - done\n'}
+[0.286787] (navigation_tb3) StdoutLine: {'line': b'-- Check for working CXX compiler: /usr/bin/c++ - skipped\n'}
+[0.287462] (navigation_tb3) StdoutLine: {'line': b'-- Detecting CXX compile features\n'}
+[0.287794] (navigation_tb3) StdoutLine: {'line': b'-- Detecting CXX compile features - done\n'}
+[0.290002] (navigation_tb3) StdoutLine: {'line': b'-- Found ament_cmake: 1.3.5 (/opt/ros/humble/share/ament_cmake/cmake)\n'}
+[0.300139] (-) TimerEvent: {}
+[0.400869] (-) TimerEvent: {}
+[0.445916] (navigation_tb3) StdoutLine: {'line': b'-- Found Python3: /usr/bin/python3.10 (found version "3.10.12") found components: Interpreter \n'}
+[0.499151] (navigation_tb3) StdoutLine: {'line': b'-- Override CMake install command with custom implementation using symlinks instead of copying resources\n'}
+[0.500958] (-) TimerEvent: {}
+[0.523640] (navigation_tb3) StdoutLine: {'line': b'-- Found rclcpp: 16.0.6 (/opt/ros/humble/share/rclcpp/cmake)\n'}
+[0.563474] (navigation_tb3) StdoutLine: {'line': b'-- Found rosidl_generator_c: 3.1.5 (/opt/ros/humble/share/rosidl_generator_c/cmake)\n'}
+[0.567972] (navigation_tb3) StdoutLine: {'line': b'-- Found rosidl_adapter: 3.1.5 (/opt/ros/humble/share/rosidl_adapter/cmake)\n'}
+[0.576180] (navigation_tb3) StdoutLine: {'line': b'-- Found rosidl_generator_cpp: 3.1.5 (/opt/ros/humble/share/rosidl_generator_cpp/cmake)\n'}
+[0.589395] (navigation_tb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_c: rosidl_typesupport_fastrtps_c;rosidl_typesupport_introspection_c\n'}
+[0.601115] (-) TimerEvent: {}
+[0.608117] (navigation_tb3) StdoutLine: {'line': b'-- Using all available rosidl_typesupport_cpp: rosidl_typesupport_fastrtps_cpp;rosidl_typesupport_introspection_cpp\n'}
+[0.673594] (navigation_tb3) StdoutLine: {'line': b'-- Found rmw_implementation_cmake: 6.1.1 (/opt/ros/humble/share/rmw_implementation_cmake/cmake)\n'}
+[0.675951] (navigation_tb3) StdoutLine: {'line': b'-- Found rmw_fastrtps_cpp: 6.2.4 (/opt/ros/humble/share/rmw_fastrtps_cpp/cmake)\n'}
+[0.701232] (-) TimerEvent: {}
+[0.758255] (navigation_tb3) StdoutLine: {'line': b'-- Found OpenSSL: /usr/lib/x86_64-linux-gnu/libcrypto.so (found version "3.0.2")  \n'}
+[0.781873] (navigation_tb3) StdoutLine: {'line': b'-- Found FastRTPS: /opt/ros/humble/include  \n'}
+[0.801480] (-) TimerEvent: {}
+[0.824289] (navigation_tb3) StdoutLine: {'line': b"-- Using RMW implementation 'rmw_fastrtps_cpp' as default\n"}
+[0.832016] (navigation_tb3) StdoutLine: {'line': b'-- Looking for pthread.h\n'}
+[0.894954] (navigation_tb3) StdoutLine: {'line': b'-- Looking for pthread.h - found\n'}
+[0.895335] (navigation_tb3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD\n'}
+[0.901533] (-) TimerEvent: {}
+[0.958118] (navigation_tb3) StdoutLine: {'line': b'-- Performing Test CMAKE_HAVE_LIBC_PTHREAD - Success\n'}
+[0.959111] (navigation_tb3) StdoutLine: {'line': b'-- Found Threads: TRUE  \n'}
+[1.001698] (-) TimerEvent: {}
+[1.101975] (-) TimerEvent: {}
+[1.113756] (navigation_tb3) StdoutLine: {'line': b'-- Found nav_msgs: 4.2.3 (/opt/ros/humble/share/nav_msgs/cmake)\n'}
+[1.202109] (-) TimerEvent: {}
+[1.231023] (navigation_tb3) StdoutLine: {'line': b'-- Found rclpy: 3.3.10 (/opt/ros/humble/share/rclpy/cmake)\n'}
+[1.302509] (-) TimerEvent: {}
+[1.355185] (navigation_tb3) StdoutLine: {'line': b'-- Configuring done\n'}
+[1.364376] (navigation_tb3) StdoutLine: {'line': b'-- Generating done\n'}
+[1.365995] (navigation_tb3) StdoutLine: {'line': b'-- Build files have been written to: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3\n'}
+[1.374813] (navigation_tb3) CommandEnded: {'returncode': 0}
+[1.375343] (navigation_tb3) JobProgress: {'identifier': 'navigation_tb3', 'progress': 'build'}
+[1.376012] (navigation_tb3) Command: {'cmd': ['/usr/bin/cmake', '--build', '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3', '--', '-j8', '-l8'], 'cwd': '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neaz'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/neaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39f65eaf740692cc01b611f6655150d2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'neaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'neaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/neaz-Latitude-5520:@/tmp/.ICE-unix/1579,unix/neaz-Latitude-5520:/tmp/.ICE-unix/1579'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e6855a2_776b_41d5_a0bd_3f2458f4dd14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39f65eaf740692cc01b611f6655150d2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[1.402628] (-) TimerEvent: {}
+[1.416936] (navigation_tb3) StdoutLine: {'line': b'[ 50%] \x1b[32mBuilding CXX object CMakeFiles/pub_occupancy_grid.dir/src/pub_occupancy_grid.cpp.o\x1b[0m\n'}
+[1.423823] (navigation_tb3) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_symlink_navigation_tb3\n'}
+[1.502731] (-) TimerEvent: {}
+[1.603146] (-) TimerEvent: {}
+[1.657073] (navigation_tb3) StdoutLine: {'line': b'running egg_info\n'}
+[1.657758] (navigation_tb3) StdoutLine: {'line': b'creating navigation_tb3.egg-info\n'}
+[1.658002] (navigation_tb3) StdoutLine: {'line': b'writing navigation_tb3.egg-info/PKG-INFO\n'}
+[1.658211] (navigation_tb3) StdoutLine: {'line': b'writing dependency_links to navigation_tb3.egg-info/dependency_links.txt\n'}
+[1.658399] (navigation_tb3) StdoutLine: {'line': b'writing top-level names to navigation_tb3.egg-info/top_level.txt\n'}
+[1.658654] (navigation_tb3) StdoutLine: {'line': b"writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'\n"}
+[1.660609] (navigation_tb3) StdoutLine: {'line': b"reading manifest file 'navigation_tb3.egg-info/SOURCES.txt'\n"}
+[1.661154] (navigation_tb3) StdoutLine: {'line': b"writing manifest file 'navigation_tb3.egg-info/SOURCES.txt'\n"}
+[1.692026] (navigation_tb3) StdoutLine: {'line': b'[ 50%] Built target ament_cmake_python_build_navigation_tb3_egg\n'}
+[1.703399] (-) TimerEvent: {}
+[1.803752] (-) TimerEvent: {}
+[1.904178] (-) TimerEvent: {}
+[2.004547] (-) TimerEvent: {}
+[2.104841] (-) TimerEvent: {}
+[2.205211] (-) TimerEvent: {}
+[2.305575] (-) TimerEvent: {}
+[2.405942] (-) TimerEvent: {}
+[2.506367] (-) TimerEvent: {}
+[2.606641] (-) TimerEvent: {}
+[2.706989] (-) TimerEvent: {}
+[2.807353] (-) TimerEvent: {}
+[2.907692] (-) TimerEvent: {}
+[3.008045] (-) TimerEvent: {}
+[3.108345] (-) TimerEvent: {}
+[3.208656] (-) TimerEvent: {}
+[3.308924] (-) TimerEvent: {}
+[3.409294] (-) TimerEvent: {}
+[3.509567] (-) TimerEvent: {}
+[3.609852] (-) TimerEvent: {}
+[3.710163] (-) TimerEvent: {}
+[3.810487] (-) TimerEvent: {}
+[3.910836] (-) TimerEvent: {}
+[4.011156] (-) TimerEvent: {}
+[4.111559] (-) TimerEvent: {}
+[4.211871] (-) TimerEvent: {}
+[4.312156] (-) TimerEvent: {}
+[4.412399] (-) TimerEvent: {}
+[4.512661] (-) TimerEvent: {}
+[4.612954] (-) TimerEvent: {}
+[4.713253] (-) TimerEvent: {}
+[4.813615] (-) TimerEvent: {}
+[4.913899] (-) TimerEvent: {}
+[5.014220] (-) TimerEvent: {}
+[5.074766] (navigation_tb3) StdoutLine: {'line': b'[100%] \x1b[32m\x1b[1mLinking CXX executable pub_occupancy_grid\x1b[0m\n'}
+[5.114351] (-) TimerEvent: {}
+[5.214755] (-) TimerEvent: {}
+[5.233432] (navigation_tb3) StdoutLine: {'line': b'[100%] Built target pub_occupancy_grid\n'}
+[5.243110] (navigation_tb3) CommandEnded: {'returncode': 0}
+[5.263574] (navigation_tb3) JobProgress: {'identifier': 'navigation_tb3', 'progress': 'install'}
+[5.270356] (navigation_tb3) Command: {'cmd': ['/usr/bin/cmake', '--install', '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3'], 'cwd': '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3', 'env': OrderedDict([('LESSOPEN', '| /usr/bin/lesspipe %s'), ('USER', 'neaz'), ('LC_TIME', 'de_DE.UTF-8'), ('XDG_SESSION_TYPE', 'x11'), ('SHLVL', '1'), ('LD_LIBRARY_PATH', '/usr/lib/x86_64-linux-gnu/gazebo-11/plugins:/opt/ros/humble/opt/rviz_ogre_vendor/lib:/opt/ros/humble/lib/x86_64-linux-gnu:/opt/ros/humble/lib'), ('HOME', '/home/neaz'), ('DESKTOP_SESSION', 'ubuntu'), ('ROS_PYTHON_VERSION', '3'), ('GNOME_SHELL_SESSION_MODE', 'ubuntu'), ('GTK_MODULES', 'gail:atk-bridge'), ('LC_MONETARY', 'de_DE.UTF-8'), ('DBUS_STARTER_BUS_TYPE', 'session'), ('SYSTEMD_EXEC_PID', '1579'), ('DBUS_SESSION_BUS_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39f65eaf740692cc01b611f6655150d2'), ('COLORTERM', 'truecolor'), ('ROS_DISTRO', 'humble'), ('GTK_IM_MODULE', 'ibus'), ('LOGNAME', 'neaz'), ('_', '/usr/bin/colcon'), ('ROS_VERSION', '2'), ('XDG_SESSION_CLASS', 'user'), ('USERNAME', 'neaz'), ('TERM', 'xterm-256color'), ('GNOME_DESKTOP_SESSION_ID', 'this-is-deprecated'), ('ROS_LOCALHOST_ONLY', '0'), ('WINDOWPATH', '2'), ('PATH', '/opt/ros/humble/bin:/usr/local/sbin:/usr/local/bin:/usr/sbin:/usr/bin:/sbin:/bin:/usr/games:/usr/local/games:/snap/bin:/snap/bin'), ('SESSION_MANAGER', 'local/neaz-Latitude-5520:@/tmp/.ICE-unix/1579,unix/neaz-Latitude-5520:/tmp/.ICE-unix/1579'), ('XDG_MENU_PREFIX', 'gnome-'), ('LC_ADDRESS', 'de_DE.UTF-8'), ('GNOME_TERMINAL_SCREEN', '/org/gnome/Terminal/screen/4e6855a2_776b_41d5_a0bd_3f2458f4dd14'), ('XDG_RUNTIME_DIR', '/run/user/1000'), ('DISPLAY', ':0'), ('LANG', 'en_US.UTF-8'), ('XDG_CURRENT_DESKTOP', 'ubuntu:GNOME'), ('LC_TELEPHONE', 'de_DE.UTF-8'), ('XMODIFIERS', '@im=ibus'), ('XDG_SESSION_DESKTOP', 'ubuntu'), ('XAUTHORITY', '/run/user/1000/gdm/Xauthority'), ('LS_COLORS', 'rs=0:di=01;34:ln=01;36:mh=00:pi=40;33:so=01;35:do=01;35:bd=40;33;01:cd=40;33;01:or=40;31;01:mi=00:su=37;41:sg=30;43:ca=30;41:tw=30;42:ow=34;42:st=37;44:ex=01;32:*.tar=01;31:*.tgz=01;31:*.arc=01;31:*.arj=01;31:*.taz=01;31:*.lha=01;31:*.lz4=01;31:*.lzh=01;31:*.lzma=01;31:*.tlz=01;31:*.txz=01;31:*.tzo=01;31:*.t7z=01;31:*.zip=01;31:*.z=01;31:*.dz=01;31:*.gz=01;31:*.lrz=01;31:*.lz=01;31:*.lzo=01;31:*.xz=01;31:*.zst=01;31:*.tzst=01;31:*.bz2=01;31:*.bz=01;31:*.tbz=01;31:*.tbz2=01;31:*.tz=01;31:*.deb=01;31:*.rpm=01;31:*.jar=01;31:*.war=01;31:*.ear=01;31:*.sar=01;31:*.rar=01;31:*.alz=01;31:*.ace=01;31:*.zoo=01;31:*.cpio=01;31:*.7z=01;31:*.rz=01;31:*.cab=01;31:*.wim=01;31:*.swm=01;31:*.dwm=01;31:*.esd=01;31:*.jpg=01;35:*.jpeg=01;35:*.mjpg=01;35:*.mjpeg=01;35:*.gif=01;35:*.bmp=01;35:*.pbm=01;35:*.pgm=01;35:*.ppm=01;35:*.tga=01;35:*.xbm=01;35:*.xpm=01;35:*.tif=01;35:*.tiff=01;35:*.png=01;35:*.svg=01;35:*.svgz=01;35:*.mng=01;35:*.pcx=01;35:*.mov=01;35:*.mpg=01;35:*.mpeg=01;35:*.m2v=01;35:*.mkv=01;35:*.webm=01;35:*.webp=01;35:*.ogm=01;35:*.mp4=01;35:*.m4v=01;35:*.mp4v=01;35:*.vob=01;35:*.qt=01;35:*.nuv=01;35:*.wmv=01;35:*.asf=01;35:*.rm=01;35:*.rmvb=01;35:*.flc=01;35:*.avi=01;35:*.fli=01;35:*.flv=01;35:*.gl=01;35:*.dl=01;35:*.xcf=01;35:*.xwd=01;35:*.yuv=01;35:*.cgm=01;35:*.emf=01;35:*.ogv=01;35:*.ogx=01;35:*.aac=00;36:*.au=00;36:*.flac=00;36:*.m4a=00;36:*.mid=00;36:*.midi=00;36:*.mka=00;36:*.mp3=00;36:*.mpc=00;36:*.ogg=00;36:*.ra=00;36:*.wav=00;36:*.oga=00;36:*.opus=00;36:*.spx=00;36:*.xspf=00;36:'), ('GNOME_TERMINAL_SERVICE', ':1.248'), ('SSH_AGENT_LAUNCHER', 'gnome-keyring'), ('SSH_AUTH_SOCK', '/run/user/1000/keyring/ssh'), ('AMENT_PREFIX_PATH', '/opt/ros/humble'), ('SHELL', '/bin/bash'), ('LC_NAME', 'de_DE.UTF-8'), ('QT_ACCESSIBILITY', '1'), ('GDMSESSION', 'ubuntu'), ('LESSCLOSE', '/usr/bin/lesspipe %s %s'), ('LC_MEASUREMENT', 'de_DE.UTF-8'), ('GPG_AGENT_INFO', '/run/user/1000/gnupg/S.gpg-agent:0:1'), ('LC_IDENTIFICATION', 'de_DE.UTF-8'), ('QT_IM_MODULE', 'ibus'), ('PWD', '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3'), ('TURTLEBOT3_MODEL', 'waffle_pi'), ('LC_ALL', 'en_US.UTF-8'), ('XDG_CONFIG_DIRS', '/etc/xdg/xdg-ubuntu:/etc/xdg'), ('DBUS_STARTER_ADDRESS', 'unix:path=/run/user/1000/bus,guid=39f65eaf740692cc01b611f6655150d2'), ('XDG_DATA_DIRS', '/usr/share/ubuntu:/usr/share/gnome:/usr/local/share/:/usr/share/:/var/lib/snapd/desktop'), ('PYTHONPATH', '/opt/ros/humble/lib/python3.10/site-packages:/opt/ros/humble/local/lib/python3.10/dist-packages'), ('LC_NUMERIC', 'de_DE.UTF-8'), ('LC_PAPER', 'de_DE.UTF-8'), ('COLCON', '1'), ('VTE_VERSION', '6800'), ('CMAKE_PREFIX_PATH', '/opt/ros/humble')]), 'shell': False}
+[5.276939] (navigation_tb3) StdoutLine: {'line': b'-- Install configuration: ""\n'}
+[5.277401] (navigation_tb3) StdoutLine: {'line': b'-- Execute custom install script\n'}
+[5.277729] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/lib/navigation_tb3/pub_occupancy_grid\n'}
+[5.285447] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/launch/mapping.launch.py\n'}
+[5.292126] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/launch/navigation.launch.py\n'}
+[5.299697] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/config/mapping.rviz\n'}
+[5.306612] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/config/navigation.rviz\n'}
+[5.313658] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/config/tb3_map.pgm\n'}
+[5.314831] (-) TimerEvent: {}
+[5.320410] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/config/tb3_map.yaml\n'}
+[5.327537] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/config/tb3_nav2_params.yaml\n'}
+[5.334758] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/config/turtlebot3_lds_2d.lua\n'}
+[5.342275] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.sh\n'}
+[5.349556] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/environment/pythonpath.dsv\n'}
+[5.356746] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/PKG-INFO\n'}
+[5.364029] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/SOURCES.txt\n'}
+[5.371160] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/dependency_links.txt\n'}
+[5.378225] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3-0.0.0-py3.10.egg-info/top_level.txt\n'}
+[5.386029] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py\n'}
+[5.393055] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/lib/navigation_tb3/single_goal_nav.py\n'}
+[5.399998] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/lib/navigation_tb3/multi_waypoints.py\n'}
+[5.407040] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/ament_index/resource_index/package_run_dependencies/navigation_tb3\n'}
+[5.413925] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/ament_index/resource_index/parent_prefix_path/navigation_tb3\n'}
+[5.414920] (-) TimerEvent: {}
+[5.421060] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.sh\n'}
+[5.427386] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/environment/ament_prefix_path.dsv\n'}
+[5.434615] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/environment/path.sh\n'}
+[5.440765] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/environment/path.dsv\n'}
+[5.447731] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/local_setup.bash\n'}
+[5.454554] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/local_setup.sh\n'}
+[5.461016] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/local_setup.zsh\n'}
+[5.468122] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/local_setup.dsv\n'}
+[5.475225] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/package.dsv\n'}
+[5.481982] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/ament_index/resource_index/packages/navigation_tb3\n'}
+[5.488751] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config.cmake\n'}
+[5.495819] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/cmake/navigation_tb3Config-version.cmake\n'}
+[5.502386] (navigation_tb3) StdoutLine: {'line': b'-- Symlinking: /home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/share/navigation_tb3/package.xml\n'}
+[5.515037] (-) TimerEvent: {}
+[5.535540] (navigation_tb3) StdoutLine: {'line': b"Listing '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3'...\n"}
+[5.535923] (navigation_tb3) StdoutLine: {'line': b"Compiling '/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/install/navigation_tb3/local/lib/python3.10/dist-packages/navigation_tb3/__init__.py'...\n"}
+[5.540660] (navigation_tb3) CommandEnded: {'returncode': 0}
+[5.615335] (-) TimerEvent: {}
+[5.655830] (navigation_tb3) JobEnded: {'identifier': 'navigation_tb3', 'rc': 0}
+[5.656616] (-) EventReactorShutdown: {}

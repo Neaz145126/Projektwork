@@ -1,0 +1,1 @@
+ament_cmake_symlink_install_targets("TARGET_FILES" "/home/neaz/Projekt/Ros2_ws/src/ros2_learners/navigation_tb3/build/navigation_tb3/pub_occupancy_grid" "TARGETS" "pub_occupancy_grid" "DESTINATION" "lib/navigation_tb3")
