@@ -1,1 +1,0 @@
-/home/neaz/Projekt/tryout/config/turtlebot3_lds_2d.lua

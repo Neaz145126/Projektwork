@@ -1,1 +1,0 @@
-/home/neaz/Projekt/tryout/build/navigation_tb3/ament_cmake_environment_hooks/pythonpath.sh

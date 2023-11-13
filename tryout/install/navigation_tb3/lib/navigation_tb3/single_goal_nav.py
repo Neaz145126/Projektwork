@@ -1,1 +1,0 @@
-/home/neaz/Projekt/tryout/scripts/single_goal_nav.py
